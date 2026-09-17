@@ -1,0 +1,25 @@
+# --- credentials: never commit ---
+.env
+.env.*
+!.env.example
+
+# --- runtime data: contains session cookies and the conversation DB ---
+data/
+data.*/
+
+# --- local backups ---
+*.bak
+*.bak.*
+*.bak[0-9]*
+*~
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- editors / os ---
+.idea/
+.vscode/
+.DS_Store
